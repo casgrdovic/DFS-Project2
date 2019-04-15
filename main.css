@@ -1,0 +1,155 @@
+html, body{
+	width: 100%;
+	overflow-x: hidden;
+	padding-bottom: 3rem;
+}
+
+
+/*Header*/
+h1{
+	font-size: 1.5em;
+	font-weight: normal;
+	font-family: ivymode, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	float: left;
+	/*margin-left: 6rem;
+	padding-top: 3rem;
+	padding-bottom: 1.5rem;*/
+}
+
+h2{
+	font-size: 1.3em;
+	font-family: freighttext pro, serif;
+	font-style: normal;
+	font-weight: 400;
+	display: inline-block;
+	padding-left: 1rem;
+	/*margin-right: 1.5rem;*/
+	float: right;
+	/*padding-top: 3rem;
+	padding-bottom: 1.5rem;*/
+}
+
+#contact{
+	/*margin-right: 6rem;*/
+}
+
+h3{
+	font-size: 1.1em;
+	font-family: FreightText Pro, sans-serif;
+	float: left;
+	/*margin-left: 6rem;
+	margin-right: 6rem;
+	padding-top: 2rem;
+	padding-bottom: 1rem;*/
+}
+
+.flex-container{
+	padding: 0 200px;
+}
+/*Footer*/
+#copyright{
+	color: #212121;
+	font-size: .9em;
+	font-family: freighttext pro, serif;
+	font-style: normal;
+	font-weight: 400;
+	float: left;
+	padding-top: 1.5rem;
+	padding-bottom: 3rem;
+	margin-left: 6rem;
+}
+
+/*Text*/
+#aboutme{
+	color: #212121;
+	font-size: 1..1em;
+	font-family: freighttext pro, serif;
+	font-style: normal;
+	font-weight: 400;
+	float: left;
+	margin-left: 6rem;
+	margin-right:6rem;
+}
+
+#contactinfo{
+	color: #212121;
+	font-size: 1..1em;
+	font-family: freighttext pro, serif;
+	font-style: normal;
+	font-weight: 400;
+	margin-left: 6rem;	
+}
+
+/*Images*/
+#homeimg{
+	display: block;
+	width: 90%;
+	height: auto;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+#infoimg{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-left: 6rem;
+	margin-right: 6rem;
+}
+
+#contactimg{
+	width: 40%;
+	height: auto;
+	float: right;
+	margin-left: 6rem;
+	margin-right: 6rem;
+
+}
+
+/*#row1{
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}*/
+/*
+#row2{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+#col1{
+	flex: 33.33%;
+	padding: 0 4px;
+}
+*/
+
+.img-style{
+	width: 100%;
+} 
+/*Links*/
+a.gvn{
+	color: #725630;
+	text-decoration: none;
+}
+
+a.nav{
+	color: #212121;
+	text-decoration: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
